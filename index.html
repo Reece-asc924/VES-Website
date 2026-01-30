@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versatile Engineer Solutions | Automotive, Agricultural & Hydraulic Services UK</title>
+    <meta name="description"
+        content="Premier engineering and maintenance services across the UK. Specializing in Commercial, Automotive Hydraulics, Forktrucks, and Agricultural machinery. 24/7 Breakdown Support.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico">
+</head>
+
+<body>
+
+    <!-- Emergency Bar -->
+    <div class="emergency-bar">
+        <div class="container">
+            🚨 24/7 EMERGENCY BREAKDOWN SUPPORT: <a href="tel:07432643920">07432 643 920</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/VES_Logo_Icon_Only.png" alt="Versatile Engineer Solutions Logo"
+                    style="height: 60px; width: auto;">
+            </a>
+
+            <div class="nav-links">
+                <a href="tel:07432643920" class="btn btn-primary">Call Now</a>
+            </div>
+
+            <!-- Mobile Menu Button Removed -->
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Keeping Your Business Moving</h1>
+            <p>Premier engineering and mechanical services across the UK. Minimizing downtime with rapid response and
+                expert maintenance.</p>
+            <br>
+            <a href="#contact" class="btn btn-primary">Request a Quote</a>
+        </div>
+    </header>
+
+    <!-- Service Selector (Hybrid Grid) -->
+    <section class="section service-selector" id="services">
+        <div class="container">
+            <div class="services-grid">
+                <!-- Automotive -->
+                <article class="service-card" data-service="automotive">
+                    <span class="service-icon">🚗</span>
+                    <h3>Automotive</h3>
+                    <p>Complete vehicle maintenance, diagnostics, and fleet servicing.</p>
+                </article>
+
+                <!-- Hydraulics -->
+                <article class="service-card" data-service="hydraulics">
+                    <span class="service-icon">🔧</span>
+                    <h3>Hydraulics</h3>
+                    <p>Specialist hose repair, ram refurbishment, and mobile hydraulic breakdown services.</p>
+                </article>
+
+                <!-- Forktrucks -->
+                <article class="service-card" data-service="forktrucks">
+                    <span class="service-icon">🏭</span>
+                    <h3>Forktrucks</h3>
+                    <p>Servicing all makes. Breakdown cover, planned maintenance, and examination.</p>
+                </article>
+
+                <!-- Agricultural -->
+                <article class="service-card" data-service="agricultural">
+                    <span class="service-icon">🚜</span>
+                    <h3>Agriculture</h3>
+                    <p>Tractor and machinery repair, onsite diagnostics, and fabrication.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modal (Hidden by default) -->
+    <div id="service-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-header">
+                <span id="modal-icon" class="service-icon"></span>
+                <h2 id="modal-title">Service Title</h2>
+            </div>
+            <div class="modal-body">
+                <p id="modal-description">Description goes here.</p>
+                <ul id="modal-details" class="modal-list">
+                    <!-- List items injected by JS -->
+                </ul>
+                <div style="margin-top: var(--spacing-lg); text-align: center;">
+                    <a href="tel:07432643920" class="btn btn-primary">Call For Support</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Value Props / Why Choose Us -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center">Why Choose Versatile Engineer Solutions?</h2>
+            <div class="text-center" style="max-width: 800px; margin: 0 auto;">
+                <p>We understand that downtime costs money. Whether you are running a fleet of forklifts, managing a
+                    commercial facility, or harvesting crops, our priority is getting you back up and running fast.</p>
+            </div>
+
+            <!-- Grid of benefits to come -->
+        </div>
+    </section>
+
+    <!-- Trust Factors -->
+    <section class="section bg-light">
+        <div class="container text-center">
+            <h3>Trusted By The Industry</h3>
+            <!-- Add logos or stats here -->
+            <p><strong>24/7</strong> Availability &bull; <strong>Nationwide</strong> Coverage &bull;
+                <strong>Fully</strong> Accredited
+            </p>
+        </div>
+    </section>
+
+    <!-- Recent Work -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center">Recent Projects</h2>
+            <div class="recent-work-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--spacing-md); margin-top: var(--spacing-lg);">
+                <!-- Project 1 -->
+                <div class="work-item">
+                    <img src="assets/excavator.png" alt="Mechanic repairing excavator hydraulics" loading="lazy">
+                    <p>Excavator Hydraulic Repair</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="work-item">
+                    <img src="assets/forklift.png" alt="Forklift maintenance in warehouse" loading="lazy">
+                    <p>Fleet Forklift Servicing</p>
+                </div>
+                <!-- Project 3 -->
+                <div class="work-item">
+                    <img src="assets/tractor.png" alt="Tractor repair in field" loading="lazy">
+                    <p>Agricultural Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section bg-light" id="contact">
+        <div class="container">
+            <h2 class="text-center">Get A Free Quote</h2>
+            <div
+                style="max-width: 600px; margin: 0 auto; background: var(--color-white); padding: var(--spacing-lg); border-radius: var(--radius-md); box-shadow: var(--shadow-md);">
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-group" style="margin-bottom: var(--spacing-md);">
+                        <label for="name"
+                            style="display: block; font-weight: 600; margin-bottom: var(--spacing-sm);">Name</label>
+                        <input type="text" id="name" name="name" required
+                            style="width: 100%; padding: var(--spacing-sm); border: 1px solid var(--color-grey-200); border-radius: var(--radius-sm);">
+                    </div>
+
+                    <div class="form-group" style="margin-bottom: var(--spacing-md);">
+                        <label for="phone"
+                            style="display: block; font-weight: 600; margin-bottom: var(--spacing-sm);">Phone
+                            Number</label>
+                        <input type="tel" id="phone" name="phone" required
+                            style="width: 100%; padding: var(--spacing-sm); border: 1px solid var(--color-grey-200); border-radius: var(--radius-sm);">
+                    </div>
+
+                    <div class="form-group" style="margin-bottom: var(--spacing-md);">
+                        <label for="service"
+                            style="display: block; font-weight: 600; margin-bottom: var(--spacing-sm);">Service
+                            Required</label>
+                        <select id="service" name="service"
+                            style="width: 100%; padding: var(--spacing-sm); border: 1px solid var(--color-grey-200); border-radius: var(--radius-sm);">
+                            <option value="">Select a Service...</option>
+                            <option value="automotive">Automotive</option>
+                            <option value="hydraulics">Hydraulics</option>
+                            <option value="forktrucks">Forktrucks</option>
+                            <option value="agricultural">Agriculture</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group" style="margin-bottom: var(--spacing-md);">
+                        <label for="message"
+                            style="display: block; font-weight: 600; margin-bottom: var(--spacing-sm);">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                            style="width: 100%; padding: var(--spacing-sm); border: 1px solid var(--color-grey-200); border-radius: var(--radius-sm);"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Request Quote</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="services-grid"> <!-- Reusing grid layout for footer structure -->
+                <div>
+                    <h4>Versatile Engineer Solutions</h4>
+                    <p>Professional engineering and maintenance services you can rely on.</p>
+                </div>
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Contact Us</h4>
+                    <p>📞 <a href="tel:07432643920">07432 643 920</a></p>
+                    <p>📧 info@versatileengineersolutions.co.uk</p>
+                    <p>📍 Available Nationwide</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
