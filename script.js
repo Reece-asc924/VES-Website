@@ -25,13 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
         'automotive': {
             title: 'Automotive Services',
             icon: '🚗',
-            desc: 'We provide comprehensive vehicle diagnostics and maintenance for commercial fleets and private vehicles.',
+            desc: 'We provide all types of automotive repair services for commercial fleets and private vehicles. No job too big or small.',
             details: [
                 'Full Vehicle Diagnostics & Repairs',
+                'Engine Replacements & Rebuilds',
+                'Gearbox, Clutch & Transmission Work',
+                'Brakes, Suspension & Steering',
+                'Electrical & Air Conditioning Systems',
+                'All Mechanical Repairs',
                 'Fleet Maintenance Contracts',
-                'Roadside Assistance',
                 'MOT Preparation & Servicing',
-                'Engine Rebuilds & Tuning'
+                'Roadside Assistance & Breakdown Recovery'
             ]
         },
         'hydraulics': {
