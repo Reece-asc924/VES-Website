@@ -25,28 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
         'automotive': {
             title: 'Automotive Services',
             icon: '🚗',
-            desc: 'We provide comprehensive vehicle diagnostics, maintenance, and repairs for commercial fleets and private vehicles. From routine servicing to complete engine replacements.',
+            desc: 'We provide all types of automotive repair services for commercial fleets and private vehicles. No job too big or small.',
             details: [
                 'Full Vehicle Diagnostics & Repairs',
-                'Engine Replacement & Rebuilds',
-                'Gearbox & Transmission Repairs',
-                'Clutch Replacement & Repairs',
-                'Brake System Overhaul & Repairs',
-                'Suspension & Steering Repairs',
-                'Exhaust System Repairs & Replacement',
-                'Cooling System & Radiator Repairs',
-                'Electrical System Diagnostics & Repairs',
-                'Fuel System & Injection Repairs',
-                'Turbocharger Repairs & Replacement',
-                'Timing Belt & Chain Replacement',
-                'Head Gasket Repairs',
-                'Alternator & Starter Motor Replacement',
-                'Air Conditioning Servicing & Repairs',
+                'Engine Replacements & Rebuilds',
+                'Gearbox, Clutch & Transmission Work',
+                'Brakes, Suspension & Steering',
+                'Electrical & Air Conditioning Systems',
+                'All Mechanical Repairs',
                 'Fleet Maintenance Contracts',
-                'Roadside Assistance & Breakdown Recovery',
                 'MOT Preparation & Servicing',
-                'Welding & Fabrication',
-                'Tyre Fitting & Wheel Alignment'
+                'Roadside Assistance & Breakdown Recovery'
             ]
         },
         'hydraulics': {
