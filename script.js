@@ -135,5 +135,23 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    // Contact Form Handler
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const service = document.getElementById('service').value;
+            const message = document.getElementById('message').value;
+
+            const subject = `Quote Request - ${service || 'General Enquiry'}`;
+            const body = `Name: ${name}%0D%0APhone: ${phone}%0D%0AService Required: ${service}%0D%0A%0D%0AMessage:%0D%0A${message}`;
+
+            window.location.href = `mailto:info@versatileengineersolutions.co.uk?subject=${encodeURIComponent(subject)}&body=${body}`;
+        });
+    }
 });
 
