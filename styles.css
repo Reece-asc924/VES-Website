@@ -413,6 +413,10 @@ footer a:hover {
         color: var(--color-primary);
     }
 
+    .nav-container {
+        justify-content: center;
+    }
+
     .nav-links {
         display: none;
         position: absolute;
@@ -433,6 +437,10 @@ footer a:hover {
     .nav-links a {
         padding: var(--spacing-sm) 0;
         font-size: 1.25rem;
+    }
+
+    .hero-content {
+        text-align: center;
     }
 
     .hero h1 {
