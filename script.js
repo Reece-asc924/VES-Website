@@ -35,7 +35,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 'All Mechanical Repairs',
                 'Fleet Maintenance Contracts',
                 'MOT Preparation & Servicing',
-                'Roadside Assistance & Breakdown Recovery'
+                'Roadside Assistance & Breakdown Recovery',
+                'Tow Bar Fitting'
             ]
         },
         'hydraulics': {
